@@ -19,9 +19,9 @@ const {sample} = require('lodash')
 
 // Other
 global.color = (text, color) => _color(text, color)
-global.owner = ['6285157729639'] //ganti disini jadi nomor wa mu (bukan nomor bot)
-global.sessionName = 'yusril'
-global.donet = 'https://saweria.co/sansekai'
+global.owner = ['628960040006'] //ganti disini jadi nomor wa mu (bukan nomor bot)
+global.sessionName = 'Zek1337'
+global.donet = ''
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
 q3 = '```'
@@ -45,5 +45,6 @@ fs.watchFile(file, () => {
 	fs.unwatchFile(file)
 	console.log(chalk.redBright(`Update'${__filename}'`))
 	delete require.cache[file]
+
 	require(file)
 })
